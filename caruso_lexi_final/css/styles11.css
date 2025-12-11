@@ -1,0 +1,144 @@
+@media (min-width: 600px) {
+    .content-grid {
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+ html, body {
+    box-sizing:border-box;
+    overflow:hidden;
+    display:flex;
+    justify-content: left;
+    background-color: black;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:column;
+}
+
+.content-grid {
+    max-inline-size: 1200px;
+    padding-inline: 2rem;
+    margin-inline: auto;
+    min-block-size: 100vh;
+    min-block-size: 100dvh;
+    display: grid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row1 {
+    position: absolute;
+    left: 15%;
+    top: -10%;
+    font-family: "cy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    text-align: left;
+    color:#61b2ab;
+    max-width: 100%;
+
+}
+
+.row2 {
+    position: absolute;
+    left: 16%;
+    top: 18%;
+    font-family: "cy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 142px;
+    text-align: left;
+    color:#61b2ab;
+    max-width: 100%;
+}
+
+.row3 {
+    position: absolute;
+    left: 18%;
+    top: 45%;
+    font-family: "cy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    text-align: left;
+    color:#61b2ab;
+    max-width: 100%;
+}
+
+.row4 {
+    position: absolute;
+    left: 55%;
+    top: -5%;
+    font-family: "cy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    text-align: left;
+    color:#ece8d1;
+    max-width: 25%;
+}
+
+.row5 {
+    position: absolute;
+    left: 70%;
+    top: -5%;
+    font-family: "cy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    text-align: left;
+    color:#ece8d1;
+    max-width: 25%;
+}
+
+.row6 {
+    position: absolute;
+    left: 85%;
+    top: -5%;
+    font-family: "cy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    text-align: left;
+    color:#ece8d1;
+    max-width: 25%;
+}
+
+
+
+a {
+    font-family: "cy", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 250%;
+    position: absolute;
+    right: 10%;
+    color:#ece8d1;
+    text-align: right;
+    top: 80%;
+    text-decoration: none;
+}
+
+figure {
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    padding: 2px;
+    text-align: left;
+}
