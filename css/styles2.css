@@ -9,12 +9,12 @@
  html, body {
     box-sizing:border-box;
     overflow:hidden;
-    display:grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    min-width: 100vh;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 2;
     background-color: #092d36;
@@ -50,7 +50,7 @@ img {
 }
 
 .paragraph {
-    position: relative;
+    position: absolute;
     left: 10%;
     top: 7%;
     font-family: "cy", sans-serif;
