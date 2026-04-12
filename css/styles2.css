@@ -50,7 +50,7 @@ img {
 }
 
 .paragraph {
-    position: absolute;
+    position: relative;
     left: 10%;
     top: 7%;
     font-family: "cy", sans-serif;
