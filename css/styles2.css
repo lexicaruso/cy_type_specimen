@@ -59,7 +59,8 @@ img {
     font-size: 1.1em;
     text-align: left;
     color:#ece8d1;
-    max-width: 50%;
+    max-height: 80%
+    max-width: 58%;
 }
 
 .r {
